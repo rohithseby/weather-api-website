@@ -5,20 +5,25 @@
 
 body{
     background-image: url(https://static.scientificamerican.com/sciam/cache/file/391E7BCB-431B-41EB-B8A85786A27DFAC6_source.jpg);
-    font-family: "Verdana", sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 
 
 #search-bar{
-    width: 10%;
+    width: 25%;
     padding: 10px;
     margin-top: 15px;
+    border-radius: 0px;
+    border: none;
 }
 
 #detect{
     margin: 15px;
     padding: 10px 20px;
+    border-radius: 0px;
+    border: none;
+
 }
 
 
@@ -27,8 +32,15 @@ img{
     width: 10%;
 }
 
-.box{
+.footer{
     width: 100%;
-    height: 50px;
+    height: 15px;
     background-color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+}
+.footer-links{
+    text-decoration: none;
 }
