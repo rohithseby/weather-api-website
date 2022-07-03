@@ -11,15 +11,15 @@
 }
 
 @font-face {
-font-family: 'sf';
-src: url(./sfwin/SFPro/TrueType/SFProDisplay-Medium.ttf);
-font-weight: 500;
+    font-family: 'sf';
+    src: url(./sfwin/SFPro/TrueType/SFProDisplay-Medium.ttf);
+    font-weight: 500;
 }
 
 @font-face {
-font-family: 'sf';
-src: url(./sfwin/SFPro/TrueType/SFProDisplay-Regular.ttf);
-font-weight: normal;
+    font-family: 'sf';
+    src: url(./sfwin/SFPro/TrueType/SFProDisplay-Regular.ttf);
+    font-weight: normal;
 }
 
 *{
@@ -27,16 +27,13 @@ font-weight: normal;
 }
 body{
     background-image: url('./img/landing/bgimg/snow.jpg');
-    /* background-color: black; */
     font-family: 'sf';
 }
 
 .logo-search{
     /* filter: blur(5px); */
     margin-top: 200px;
-    /* font-family: 'sf'; */
     text-align: center;
-    /* border: 10px solid white; */
 }
 
 h1{
@@ -52,16 +49,13 @@ h1{
     background: white;
     font-weight: normal;
     font-size: 20px;
-    /* outline: 1px solid lightgrey; */
 }
 
 
 #search-bar{
     width: 30%;
     padding-left: 20px;
-    /* margin-top: 15px; */
     border: none;
-    background: white;
 }
 
 #detect{
@@ -70,7 +64,6 @@ h1{
     font-size: 16px;
     text-align: center;
     padding: 0px 30px;
-    border: none;
 }
 
 
@@ -80,15 +73,12 @@ img{
 }
 
 .footer{
-    /* width: 20%; */
-    height: 15px;
+    height: 16px;
     width: 100%;
     background-color: white;
     text-align: center;
-    /* border: 2px solid black; */
     position: fixed;
     bottom: 0;
-    margin: auto;
     font-size: 12px;
     border-radius: 10px;
 }
